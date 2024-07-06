@@ -77,3 +77,110 @@
   flex-direction: column;
   line-height: 0.3;
 }
+
+
+@media (max-width: 1200px) {
+  .container {
+    width: 50%;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    width: 70%;
+  }
+
+  .container .user {
+    justify-content: space-between;
+  }
+
+  .container .user .user-name {
+    width: 30%;
+
+  }
+
+  .container .user .user-name .name {
+    font-size: 0.9rem;
+
+  }
+
+  .container .user .user-name .email,
+  .last-seen {
+    font-size: 10px;
+
+  }
+
+  .container .user-img {
+    height: 50px;
+    width: 50px;
+
+  }
+
+  .container .user-role {
+    width: 25%;
+  }
+
+  .container .user-role .role-text {
+    font-size: 0.9rem;
+  }
+
+  .container .user-role .more-info-dots {
+    margin-left: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 90%;
+  }
+
+  .container .heading {
+    font-size: 1.2rem;
+  }
+
+  .container .user .user-name {
+    width: 40%;
+  }
+
+  .container .user-img {
+    height: 40px;
+    width: 40px;
+
+  }
+
+  .container .user-role {
+    width: 40%;
+
+  }
+
+  .container .user-role .role-text {
+    font-size: 0.8rem;
+  }
+
+  .container .user-role .more-info-dots {
+    margin-left: 10px;
+  }
+}
+
+@media (max-width: 400px) {
+
+  .container {
+    width: 100%;
+    padding: 5px;
+  }
+
+  .container .user .user-name .name {
+    font-size: 0.8rem;
+  }
+
+  .container .user-role .role-text {
+    font-size: 0.3rem;
+  }
+
+  .container .user-role .more-info-dots {
+    margin-left: 5px;
+
+  }
+
+
+}
